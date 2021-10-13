@@ -1,0 +1,63 @@
+allan stuart virmond (2379525)
+isaias roberto de lima e silva (2588009)
+
+Sistema especialista para ajustar os canais de um roteador wifi
+
+Planejamento do sistema (entrega 1)
+
+será recebido os dados de intensidade da maior interferência no canal a ser observado, iterando do canal 1 ao canal 11
+
+os dados de de leitura serão armazenados em forma de vetores inteiros com sinal que representam o nivel da interferência em dBm
+
+será armazenado um vetor adicional para comparar o estado anterior e o estado atual a fim de estudar melhorias pra atual configuração
+
+será dado preferência para os canais 1, 6 e 11
+
+a saida sera a troca, quando necessario, do canal do wifi
+
+
+
+
+estados
+canal 1 (estado inicial)
+canal 2
+canal 3
+canal 4
+canal 5
+canal 6
+canal 7
+canal 8
+canal 9
+canal 10
+canal 11
+
+
+
+estado final e teste de objetivo
+
+canal com menor interferencia possivel
+
+
+
+custo do caminho
+uma instrucao de comparacao por historico de interferencia comparado
+
+mais um pra trocar de canal
+se necessario
+
+11 instrucoes pra atualizar os valores das interferencias em cada canal
+
+
+
+abstracoes
+
+cada canal deve ter uma interferencia detectada
+
+é considerado interferencia algum sinal de transmissão no mesmo canal com intensidade maior que -80 dBm
+
+cada analise de canal é feita para todos os canais de 1 a 11
+
+deve se ter como historico a ultima varredura de canais
+
+considerar canais adjacentes
+2 canais pra menos ou pra mais
