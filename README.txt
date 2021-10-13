@@ -13,6 +13,5 @@ Isaias Roberto de Lima e Silva - Computer Engineering Student - Uninter Universi
 ------------------------------------------------------------------------------------------
 
 Questions:
-
-allan199215@gmail.com
+@alvir218 (github)
 isaias.roberto.2008@gmail.com
